@@ -1,0 +1,13 @@
+version: "3.3"
+
+services:
+    mysql_node:
+
+      image: mysql:latest
+
+      environment:
+
+          - MYSQL_ROOT_PASSWORD=Rutu@123
+          - MYSQL_DATABASE=pucsdSudents
+
+      restart: always
