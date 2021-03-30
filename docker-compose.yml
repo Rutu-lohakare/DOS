@@ -4,6 +4,9 @@ services:
     mysql_node:
 
       image: mysql:latest
+      
+      expose:
+          - "3306"
 
       environment:
 
